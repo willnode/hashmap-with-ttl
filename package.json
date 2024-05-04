@@ -1,19 +1,18 @@
 {
   "name": "hashmap-with-ttl",
   "version": "1.0.0",
-  "description": "HashMap with Time-to-live",
+  "description": "HashMap with maximum capacity and time-to-live limit",
   "exports": {
     ".": "./src/index.js"
   },
   "type": "module",
-  "private": true,
   "engines": {
     "node": ">=16.0.0"
   },
   "scripts": {
     "test": "bun test"
   },
-  "keywords": [],
+  "keywords": ["hashmap", "ttl"],
   "author": "Wildan Mubarok",
   "license": "MIT",
   "dependencies": {

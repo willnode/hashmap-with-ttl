@@ -1,6 +1,6 @@
 # `hashmap-with-ttl`
 
-A hashmap implementation with maximum capacity and time-to-live.
+A hashmap implementation with maximum capacity and time-to-live limit.
 
 The idea is primilarily for caching, just like Redis which also has time-to-live data config but you also wish to avoid it. 
 
